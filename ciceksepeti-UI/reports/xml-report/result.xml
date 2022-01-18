@@ -1,0 +1,9 @@
+<testsuites>
+	<testsuite id="1" tests="2" failures="0" package="C:\Users\berka\Desktop\ciceksepeti-UI\specs\specs\cs-example.spec" time="198.475" timestamp="2022-01-18T22:52:59" name="Table driven execution" errors="0" hostname="DESKTOP-MK8UR93">
+		<properties></properties>
+		<testcase classname="Table driven execution" name="Ciceksepeti Sample Set 1" time="98.794"></testcase>
+		<testcase classname="Table driven execution" name="Ciceksepeti Sample Set 2" time="99.681"></testcase>
+		<system-out></system-out>
+		<system-err></system-err>
+	</testsuite>
+</testsuites>

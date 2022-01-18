@@ -1,0 +1,455 @@
+{"logLevel":"debug","message":"multithreading is set to true"}
+{"logLevel":"debug","message":"multithreading enabled, but could not read GAUGE_PARALLEL_STREAMS_COUNT as int. Got GAUGE_PARALLEL_STREAMS_COUNT=null"}
+{"logLevel":"debug","message":"using numberOfStreams=1, err: null"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 748milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 748"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 64997"}
+{"logLevel":"info","message":"Listening on port:64997"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.checkElementContainsText' and 'org.example.StepImplementation.checkElementContainsText'"}
+{"logLevel":"debug","message":"Found Check if element {} contains text {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.checkElementContainsText' and 'org.example.StepImplementation.checkElementContainsText'"}
+{"logLevel":"debug","message":"Found {} elementi {} değerini içeriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.checkElementContainsText' and 'org.example.StepImplementation.checkElementContainsText'"}
+{"logLevel":"debug","message":"Found Check if title contains text {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.checkElementContainsText' and 'org.example.StepImplementation.checkElementContainsText'"}
+{"logLevel":"debug","message":"Found Title {} değerini içeriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.jsClicker' and 'org.example.StepImplementation.jsClicker'"}
+{"logLevel":"debug","message":"Found Click with js method {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.asdfas' and 'org.example.StepImplementation.asdfas'"}
+{"logLevel":"debug","message":"Found {} has next degeri true ise her sayfada bulunan {} li key ile 60 urun yuklendigini dogrula in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.asdfas' and 'org.example.StepImplementation.asdfas'"}
+{"logLevel":"debug","message":"Found If {} element's attribute value true then verify 60 products loaded in every page with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.selectFromAutoSuggestiveDropDown' and 'org.example.StepImplementation.selectFromAutoSuggestiveDropDown'"}
+{"logLevel":"debug","message":"Found Select address from auto suggestive dropdown with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.scrollToElement' and 'org.example.StepImplementation.scrollToElement'"}
+{"logLevel":"debug","message":"Found {} alanına kaydır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.clickElement' and 'org.example.StepImplementation.clickElement'"}
+{"logLevel":"debug","message":"Found Click to element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.clickElement' and 'org.example.StepImplementation.clickElement'"}
+{"logLevel":"debug","message":"Found Elementine tıkla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.chooseRandomElementFromList' and 'org.example.StepImplementation.chooseRandomElementFromList'"}
+{"logLevel":"debug","message":"Found {} menu listesinden rasgele seç in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.checkRelativePosition' and 'org.example.StepImplementation.checkRelativePosition'"}
+{"logLevel":"debug","message":"Found Check position {} relative to {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.javascriptClickerWithCss' and 'org.example.StepImplementation.javascriptClickerWithCss'"}
+{"logLevel":"debug","message":"Found Click with javascript to css {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.javascriptClickerWithCss' and 'org.example.StepImplementation.javascriptClickerWithCss'"}
+{"logLevel":"debug","message":"Found Javascript ile css tıkla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.navigateToHomePage' and 'org.example.StepImplementation.navigateToHomePage'"}
+{"logLevel":"debug","message":"Found Navigate to home page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.hoverByGivenElement' and 'org.example.StepImplementation.hoverByGivenElement'"}
+{"logLevel":"debug","message":"Found Hover by given element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.sendKeysToGivenElement' and 'org.example.StepImplementation.sendKeysToGivenElement'"}
+{"logLevel":"debug","message":"Found Send {} Keys to given element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.isEnableSection' and 'org.example.StepImplementation.isEnableSection'"}
+{"logLevel":"debug","message":"Found Element with {} is enable on website in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.isEnableSection' and 'org.example.StepImplementation.isEnableSection'"}
+{"logLevel":"debug","message":"Found {} li element sayfada enable mı kontrol et  in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.s' and 'org.example.StepImplementation.s'"}
+{"logLevel":"debug","message":"Found Select {} list with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.switchTabsUsingPartOfUrl' and 'org.example.StepImplementation.switchTabsUsingPartOfUrl'"}
+{"logLevel":"debug","message":"Found Check if new tab has verified url {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.isDisplayedSection' and 'org.example.StepImplementation.isDisplayedSection'"}
+{"logLevel":"debug","message":"Found Element with {} is displayed on website in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.isDisplayedSection' and 'org.example.StepImplementation.isDisplayedSection'"}
+{"logLevel":"debug","message":"Found {} li element sayfada görüntüleniyor mu kontrol et  in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.checkElementAttributeExists' and 'org.example.StepImplementation.checkElementAttributeExists'"}
+{"logLevel":"debug","message":"Found Check if element {} has attribute {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.checkElementAttributeExists' and 'org.example.StepImplementation.checkElementAttributeExists'"}
+{"logLevel":"debug","message":"Found {} elementi {} niteliğine sahip mi in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.navigateToGivenPage' and 'org.example.StepImplementation.navigateToGivenPage'"}
+{"logLevel":"debug","message":"Found Navigate to given page {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.waitUntilImageUploadedAndClickCheckBox' and 'org.example.StepImplementation.waitUntilImageUploadedAndClickCheckBox'"}
+{"logLevel":"debug","message":"Found Wait until image uploaded and click checkbox {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.javascriptClickerWithXpath' and 'org.example.StepImplementation.javascriptClickerWithXpath'"}
+{"logLevel":"debug","message":"Found Click with javascript to xpath {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.javascriptClickerWithXpath' and 'org.example.StepImplementation.javascriptClickerWithXpath'"}
+{"logLevel":"debug","message":"Found Javascript ile xpath tıkla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.getElementWithKeyIfExistsWithMessage' and 'org.example.StepImplementation.getElementWithKeyIfExistsWithMessage'"}
+{"logLevel":"debug","message":"Found Check if element {} exists else print message {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.getElementWithKeyIfExistsWithMessage' and 'org.example.StepImplementation.getElementWithKeyIfExistsWithMessage'"}
+{"logLevel":"debug","message":"Found Element {} var mı kontrol et yoksa hata mesajı ver {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.select' and 'org.example.StepImplementation.select'"}
+{"logLevel":"debug","message":"Found Select from {} list with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.warningMessageShouldBe' and 'org.example.StepImplementation.warningMessageShouldBe'"}
+{"logLevel":"debug","message":"Found Given element {} dynamic text area warning message should be in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.waitByMilliSeconds' and 'org.example.StepImplementation.waitByMilliSeconds'"}
+{"logLevel":"debug","message":"Found Wait {} milliseconds in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.waitByMilliSeconds' and 'org.example.StepImplementation.waitByMilliSeconds'"}
+{"logLevel":"debug","message":"Found {} milisaniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.asdf' and 'org.example.StepImplementation.asdf'"}
+{"logLevel":"debug","message":"Found Check if {} element's attribute value {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.textRangeAndWarningMessageShouldBe' and 'org.example.StepImplementation.textRangeAndWarningMessageShouldBe'"}
+{"logLevel":"debug","message":"Found Given element {} dynamic text area range should be max {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.uploadImage' and 'org.example.StepImplementation.uploadImage'"}
+{"logLevel":"debug","message":"Found Upload file to given {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.waitUntilElementsLoaded' and 'org.example.StepImplementation.waitUntilElementsLoaded'"}
+{"logLevel":"debug","message":"Found Wait until elements loaded {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementationHomePage.implementation1' and 'org.example.StepImplementationHomePage.implementation1'"}
+{"logLevel":"debug","message":"Found HomePage Actions in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.scrollToElementWithJs' and 'org.example.StepImplementation.scrollToElementWithJs'"}
+{"logLevel":"debug","message":"Found Scroll to {} field in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.scrollToElementWithJs' and 'org.example.StepImplementation.scrollToElementWithJs'"}
+{"logLevel":"debug","message":"Found {} alanına js ile kaydır in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tWait {} milliseconds : public void waitByMilliSeconds(long milliseconds)"}
+{"logLevel":"debug","message":"\tJavascript ile css tıkla {} : public void javascriptClickerWithCss(String css)"}
+{"logLevel":"debug","message":"\t{} milisaniye bekle : public void waitByMilliSeconds(long milliseconds)"}
+{"logLevel":"debug","message":"\tCheck if element {} has attribute {} : public void checkElementAttributeExists(String key, String attribute)"}
+{"logLevel":"debug","message":"\tGiven element {} dynamic text area range should be max {} : public void textRangeAndWarningMessageShouldBe(String key, String limit)"}
+{"logLevel":"debug","message":"\tCheck if {} element's attribute value {} : public void asdf(String key, String active)"}
+{"logLevel":"debug","message":"\tHomePage Actions : public void implementation1()"}
+{"logLevel":"debug","message":"\tElement {} var mı kontrol et yoksa hata mesajı ver {} : public void getElementWithKeyIfExistsWithMessage(String key, String message)"}
+{"logLevel":"debug","message":"\tNavigate to given page {} : public void navigateToGivenPage(String string)"}
+{"logLevel":"debug","message":"\t{} elementi {} değerini içeriyor mu kontrol et : public void checkElementContainsText(String key, String expectedText)"}
+{"logLevel":"debug","message":"\tWait until image uploaded and click checkbox {} : public void waitUntilImageUploadedAndClickCheckBox(String key)"}
+{"logLevel":"debug","message":"\tSelect from {} list with {} : public void select(String key, String text)"}
+{"logLevel":"debug","message":"\tCheck if element {} exists else print message {} : public void getElementWithKeyIfExistsWithMessage(String key, String message)"}
+{"logLevel":"debug","message":"\tCheck if new tab has verified url {} : public void switchTabsUsingPartOfUrl(String key)"}
+{"logLevel":"debug","message":"\tUpload file to given {} : public void uploadImage(String key) throws AWTException, InterruptedException"}
+{"logLevel":"debug","message":"\tHover by given element {} : public void hoverByGivenElement(String key)"}
+{"logLevel":"debug","message":"\tCheck if title contains text {} : public void checkElementContainsText(String expectedText)"}
+{"logLevel":"debug","message":"\tGiven element {} dynamic text area warning message should be : public void warningMessageShouldBe(String key)"}
+{"logLevel":"debug","message":"\t{} li element sayfada görüntüleniyor mu kontrol et  : public void isDisplayedSection(String key)"}
+{"logLevel":"debug","message":"\t{} has next degeri true ise her sayfada bulunan {} li key ile 60 urun yuklendigini dogrula : public void asdfas(String key, String elements) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} alanına kaydır : public void scrollToElement(String key)"}
+{"logLevel":"debug","message":"\tTitle {} değerini içeriyor mu kontrol et : public void checkElementContainsText(String expectedText)"}
+{"logLevel":"debug","message":"\tElement with {} is enable on website : public void isEnableSection(String key)"}
+{"logLevel":"debug","message":"\tSend {} Keys to given element {} : public void sendKeysToGivenElement(String text, String key)"}
+{"logLevel":"debug","message":"\t{} elementi {} niteliğine sahip mi : public void checkElementAttributeExists(String key, String attribute)"}
+{"logLevel":"debug","message":"\tJavascript ile xpath tıkla {} : public void javascriptClickerWithXpath(String xpath)"}
+{"logLevel":"debug","message":"\t{} alanına js ile kaydır : public void scrollToElementWithJs(String key)"}
+{"logLevel":"debug","message":"\tSelect {} list with {} : public void s(String key, String option)"}
+{"logLevel":"debug","message":"\tScroll to {} field : public void scrollToElementWithJs(String key)"}
+{"logLevel":"debug","message":"\tCheck if element {} contains text {} : public void checkElementContainsText(String key, String expectedText)"}
+{"logLevel":"debug","message":"\t{} menu listesinden rasgele seç : public void chooseRandomElementFromList(String key)"}
+{"logLevel":"debug","message":"\tClick to element {} : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\tClick with js method {} : public void jsClicker(String key)"}
+{"logLevel":"debug","message":"\t{} li element sayfada enable mı kontrol et  : public void isEnableSection(String key)"}
+{"logLevel":"debug","message":"\tCheck position {} relative to {} : public Boolean checkRelativePosition(String key1, String key2)"}
+{"logLevel":"debug","message":"\tIf {} element's attribute value true then verify 60 products loaded in every page with {} : public void asdfas(String key, String elements) throws InterruptedException"}
+{"logLevel":"debug","message":"\tNavigate to home page : public void navigateToHomePage()"}
+{"logLevel":"debug","message":"\tElement with {} is displayed on website : public void isDisplayedSection(String key)"}
+{"logLevel":"debug","message":"\tSelect address from auto suggestive dropdown with {} : public void selectFromAutoSuggestiveDropDown(String key)"}
+{"logLevel":"debug","message":"\tWait until elements loaded {} : public void waitUntilElementsLoaded(String key)"}
+{"logLevel":"debug","message":"\tClick with javascript to xpath {} : public void javascriptClickerWithXpath(String xpath)"}
+{"logLevel":"debug","message":"\tClick with javascript to css {} : public void javascriptClickerWithCss(String css)"}
+{"logLevel":"debug","message":"\tElementine tıkla {} : public void clickElement(String key)"}
+Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 19207
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1641981683.434][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1641981683.434][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+Oca 12, 2022 1:01:23 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Navigate to given page {}' using 'class org.example.StepImplementation.navigateToGivenPage"}
+{"logLevel":"debug","message":"Executing 'Wait {} milliseconds' using 'class org.example.StepImplementation.waitByMilliSeconds"}
+{"logLevel":"debug","message":"Executing 'Click to element {}' using 'class org.example.StepImplementation.clickElement"}
+{"logLevel":"debug","message":"Executing 'Click to element {}' using 'class org.example.StepImplementation.clickElement"}
+{"logLevel":"debug","message":"Executing 'Wait {} milliseconds' using 'class org.example.StepImplementation.waitByMilliSeconds"}
+{"logLevel":"debug","message":"Executing 'Click to element {}' using 'class org.example.StepImplementation.clickElement"}
+{"logLevel":"debug","message":"Executing 'Wait until elements loaded {}' using 'class org.example.StepImplementation.waitUntilElementsLoaded"}
+1,749
+1,519
+1,509
+1,469
+1,469
+1,469
+1,459
+1,369
+1,369
+1,359
+1,339
+1,309
+1,299
+1,299
+1,179
+1,159
+1,112
+1,109
+1,089
+1,059
+1,029
+979
+979
+969
+969
+949
+939
+919
+909
+909
+899
+899
+899
+899
+899
+889
+889
+879
+879
+869
+869
+859
+859
+849
+839
+839
+839
+839
+839
+829
+829
+829
+819
+819
+819
+819
+819
+819
+819
+819
+actual : 1,749
+sorted : 1,029
+The elements the webpage are not sorted
+expected 1,029 but actual 1,749
+actual : 1,519
+sorted : 1,059
+The elements the webpage are not sorted
+expected 1,059 but actual 1,519
+actual : 1,509
+sorted : 1,089
+The elements the webpage are not sorted
+expected 1,089 but actual 1,509
+actual : 1,469
+sorted : 1,109
+The elements the webpage are not sorted
+expected 1,109 but actual 1,469
+actual : 1,469
+sorted : 1,112
+The elements the webpage are not sorted
+expected 1,112 but actual 1,469
+actual : 1,469
+sorted : 1,159
+The elements the webpage are not sorted
+expected 1,159 but actual 1,469
+actual : 1,459
+sorted : 1,179
+The elements the webpage are not sorted
+expected 1,179 but actual 1,459
+actual : 1,369
+sorted : 1,299
+The elements the webpage are not sorted
+expected 1,299 but actual 1,369
+actual : 1,369
+sorted : 1,299
+The elements the webpage are not sorted
+expected 1,299 but actual 1,369
+actual : 1,359
+sorted : 1,309
+The elements the webpage are not sorted
+expected 1,309 but actual 1,359
+actual : 1,309
+sorted : 1,359
+The elements the webpage are not sorted
+expected 1,359 but actual 1,309
+actual : 1,299
+sorted : 1,369
+The elements the webpage are not sorted
+expected 1,369 but actual 1,299
+actual : 1,299
+sorted : 1,369
+The elements the webpage are not sorted
+expected 1,369 but actual 1,299
+actual : 1,179
+sorted : 1,459
+The elements the webpage are not sorted
+expected 1,459 but actual 1,179
+actual : 1,159
+sorted : 1,469
+The elements the webpage are not sorted
+expected 1,469 but actual 1,159
+actual : 1,112
+sorted : 1,469
+The elements the webpage are not sorted
+expected 1,469 but actual 1,112
+actual : 1,109
+sorted : 1,469
+The elements the webpage are not sorted
+expected 1,469 but actual 1,109
+actual : 1,089
+sorted : 1,509
+The elements the webpage are not sorted
+expected 1,509 but actual 1,089
+actual : 1,059
+sorted : 1,519
+The elements the webpage are not sorted
+expected 1,519 but actual 1,059
+actual : 1,029
+sorted : 1,749
+The elements the webpage are not sorted
+expected 1,749 but actual 1,029
+actual : 979
+sorted : 819
+The elements the webpage are not sorted
+expected 819 but actual 979
+actual : 979
+sorted : 819
+The elements the webpage are not sorted
+expected 819 but actual 979
+actual : 969
+sorted : 819
+The elements the webpage are not sorted
+expected 819 but actual 969
+actual : 969
+sorted : 819
+The elements the webpage are not sorted
+expected 819 but actual 969
+actual : 949
+sorted : 819
+The elements the webpage are not sorted
+expected 819 but actual 949
+actual : 939
+sorted : 819
+The elements the webpage are not sorted
+expected 819 but actual 939
+actual : 919
+sorted : 819
+The elements the webpage are not sorted
+expected 819 but actual 919
+actual : 909
+sorted : 819
+The elements the webpage are not sorted
+expected 819 but actual 909
+actual : 909
+sorted : 829
+The elements the webpage are not sorted
+expected 829 but actual 909
+actual : 899
+sorted : 829
+The elements the webpage are not sorted
+expected 829 but actual 899
+actual : 899
+sorted : 829
+The elements the webpage are not sorted
+expected 829 but actual 899
+actual : 899
+sorted : 839
+The elements the webpage are not sorted
+expected 839 but actual 899
+actual : 899
+sorted : 839
+The elements the webpage are not sorted
+expected 839 but actual 899
+actual : 899
+sorted : 839
+The elements the webpage are not sorted
+expected 839 but actual 899
+actual : 889
+sorted : 839
+The elements the webpage are not sorted
+expected 839 but actual 889
+actual : 889
+sorted : 839
+The elements the webpage are not sorted
+expected 839 but actual 889
+actual : 879
+sorted : 849
+The elements the webpage are not sorted
+expected 849 but actual 879
+actual : 879
+sorted : 859
+The elements the webpage are not sorted
+expected 859 but actual 879
+actual : 869
+sorted : 859
+The elements the webpage are not sorted
+expected 859 but actual 869
+actual : 859
+sorted : 869
+The elements the webpage are not sorted
+expected 869 but actual 859
+actual : 859
+sorted : 879
+The elements the webpage are not sorted
+expected 879 but actual 859
+actual : 849
+sorted : 879
+The elements the webpage are not sorted
+expected 879 but actual 849
+actual : 839
+sorted : 889
+The elements the webpage are not sorted
+expected 889 but actual 839
+actual : 839
+sorted : 889
+The elements the webpage are not sorted
+expected 889 but actual 839
+actual : 839
+sorted : 899
+The elements the webpage are not sorted
+expected 899 but actual 839
+actual : 839
+sorted : 899
+The elements the webpage are not sorted
+expected 899 but actual 839
+actual : 839
+sorted : 899
+The elements the webpage are not sorted
+expected 899 but actual 839
+actual : 829
+sorted : 899
+The elements the webpage are not sorted
+expected 899 but actual 829
+actual : 829
+sorted : 899
+The elements the webpage are not sorted
+expected 899 but actual 829
+actual : 829
+sorted : 909
+The elements the webpage are not sorted
+expected 909 but actual 829
+actual : 819
+sorted : 909
+The elements the webpage are not sorted
+expected 909 but actual 819
+actual : 819
+sorted : 919
+The elements the webpage are not sorted
+expected 919 but actual 819
+actual : 819
+sorted : 939
+The elements the webpage are not sorted
+expected 939 but actual 819
+actual : 819
+sorted : 949
+The elements the webpage are not sorted
+expected 949 but actual 819
+actual : 819
+sorted : 969
+The elements the webpage are not sorted
+expected 969 but actual 819
+actual : 819
+sorted : 969
+The elements the webpage are not sorted
+expected 969 but actual 819
+actual : 819
+sorted : 979
+The elements the webpage are not sorted
+expected 979 but actual 819
+actual : 819
+sorted : 979
+The elements the webpage are not sorted
+expected 979 but actual 819
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

@@ -1,0 +1,86 @@
+{"logLevel":"debug","message":"multithreading is set to true"}
+{"logLevel":"debug","message":"multithreading enabled, but could not read GAUGE_PARALLEL_STREAMS_COUNT as int. Got GAUGE_PARALLEL_STREAMS_COUNT=null"}
+{"logLevel":"debug","message":"using numberOfStreams=1, err: null"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 734milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 734"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 49264"}
+{"logLevel":"info","message":"Listening on port:49264"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.checkElementContainsText' and 'org.example.StepImplementation.checkElementContainsText'"}
+{"logLevel":"debug","message":"Found Check if element {} contains text {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.checkElementContainsText' and 'org.example.StepImplementation.checkElementContainsText'"}
+{"logLevel":"debug","message":"Found {} elementi {} değerini içeriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.checkElementContainsText' and 'org.example.StepImplementation.checkElementContainsText'"}
+{"logLevel":"debug","message":"Found Check if title contains text {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.checkElementContainsText' and 'org.example.StepImplementation.checkElementContainsText'"}
+{"logLevel":"debug","message":"Found Title {} değerini içeriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.isDisplayedSection' and 'org.example.StepImplementation.isDisplayedSection'"}
+{"logLevel":"debug","message":"Found Element with {} is displayed on website in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.isDisplayedSection' and 'org.example.StepImplementation.isDisplayedSection'"}
+{"logLevel":"debug","message":"Found {} li element sayfada görüntüleniyor mu kontrol et  in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.waitByMilliSeconds' and 'org.example.StepImplementation.waitByMilliSeconds'"}
+{"logLevel":"debug","message":"Found Wait {} milliseconds in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.waitByMilliSeconds' and 'org.example.StepImplementation.waitByMilliSeconds'"}
+{"logLevel":"debug","message":"Found {} milisaniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.navigateToHomePage' and 'org.example.StepImplementation.navigateToHomePage'"}
+{"logLevel":"debug","message":"Found Navigate to home page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.clickElement' and 'org.example.StepImplementation.clickElement'"}
+{"logLevel":"debug","message":"Found Click to element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.clickElement' and 'org.example.StepImplementation.clickElement'"}
+{"logLevel":"debug","message":"Found Elementine tıkla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.chooseRandomElementFromList' and 'org.example.StepImplementation.chooseRandomElementFromList'"}
+{"logLevel":"debug","message":"Found {} menu listesinden rasgele seç in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.javascriptClickerWithXpath' and 'org.example.StepImplementation.javascriptClickerWithXpath'"}
+{"logLevel":"debug","message":"Found Click with javascript to xpath {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.javascriptClickerWithXpath' and 'org.example.StepImplementation.javascriptClickerWithXpath'"}
+{"logLevel":"debug","message":"Found Javascript ile xpath tıkla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.scrollToElementWithJs' and 'org.example.StepImplementation.scrollToElementWithJs'"}
+{"logLevel":"debug","message":"Found {} alanına js ile kaydır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.javascriptClickerWithCss' and 'org.example.StepImplementation.javascriptClickerWithCss'"}
+{"logLevel":"debug","message":"Found Click with javascript to css {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.javascriptClickerWithCss' and 'org.example.StepImplementation.javascriptClickerWithCss'"}
+{"logLevel":"debug","message":"Found Javascript ile css tıkla {} in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tWait {} milliseconds : public void waitByMilliSeconds(long milliseconds)"}
+{"logLevel":"debug","message":"\tCheck if element {} contains text {} : public void checkElementContainsText(String key, String expectedText)"}
+{"logLevel":"debug","message":"\t{} menu listesinden rasgele seç : public void chooseRandomElementFromList(String key)"}
+{"logLevel":"debug","message":"\tJavascript ile css tıkla {} : public void javascriptClickerWithCss(String css)"}
+{"logLevel":"debug","message":"\tClick to element {} : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\t{} milisaniye bekle : public void waitByMilliSeconds(long milliseconds)"}
+{"logLevel":"debug","message":"\tNavigate to home page : public void navigateToHomePage()"}
+{"logLevel":"debug","message":"\t{} elementi {} değerini içeriyor mu kontrol et : public void checkElementContainsText(String key, String expectedText)"}
+{"logLevel":"debug","message":"\tElement with {} is displayed on website : public void isDisplayedSection(String key)"}
+{"logLevel":"debug","message":"\tCheck if title contains text {} : public void checkElementContainsText(String expectedText)"}
+{"logLevel":"debug","message":"\tClick with javascript to xpath {} : public void javascriptClickerWithXpath(String xpath)"}
+{"logLevel":"debug","message":"\tClick with javascript to css {} : public void javascriptClickerWithCss(String css)"}
+{"logLevel":"debug","message":"\t{} li element sayfada görüntüleniyor mu kontrol et  : public void isDisplayedSection(String key)"}
+{"logLevel":"debug","message":"\tTitle {} değerini içeriyor mu kontrol et : public void checkElementContainsText(String expectedText)"}
+{"logLevel":"debug","message":"\tElementine tıkla {} : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\tJavascript ile xpath tıkla {} : public void javascriptClickerWithXpath(String xpath)"}
+{"logLevel":"debug","message":"\t{} alanına js ile kaydır : public void scrollToElementWithJs(String key)"}
+Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 24165
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1634333600.701][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1634333600.702][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+Eki 16, 2021 12:33:21 ÖÖ org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Navigate to home page' using 'class org.example.StepImplementation.navigateToHomePage"}
+{"logLevel":"debug","message":"Executing 'Check if title contains text {}' using 'class org.example.StepImplementation.checkElementContainsText"}
+{"logLevel":"debug","message":"Executing 'Element with {} is displayed on website' using 'class org.example.StepImplementation.isDisplayedSection"}
+{"logLevel":"debug","message":"Executing 'Element with {} is displayed on website' using 'class org.example.StepImplementation.isDisplayedSection"}
+{"logLevel":"debug","message":"Executing 'Element with {} is displayed on website' using 'class org.example.StepImplementation.isDisplayedSection"}
+{"logLevel":"debug","message":"Executing 'Element with {} is displayed on website' using 'class org.example.StepImplementation.isDisplayedSection"}
+{"logLevel":"debug","message":"Executing 'Element with {} is displayed on website' using 'class org.example.StepImplementation.isDisplayedSection"}
+{"logLevel":"debug","message":"Executing 'Element with {} is displayed on website' using 'class org.example.StepImplementation.isDisplayedSection"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

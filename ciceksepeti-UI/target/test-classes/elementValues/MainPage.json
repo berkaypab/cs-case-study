@@ -1,0 +1,27 @@
+[
+  {
+    "key": "closePopup",
+    "value": "div[class*='subheader-close'] a",
+    "type": "css"
+  },
+  {
+    "key": "userMenuIcon",
+    "value": "span[class*='user-menu__icon--account icon-user_2']",
+    "type": "css"
+  },
+  {
+    "key": "signInButton",
+    "value": "ul[class='users-process-list'] li:nth-of-type(1) a",
+    "type": "css"
+  },
+  {
+    "key": "footerDiv",
+    "value": "div[class='footer']",
+    "type": "css"
+  },
+  {
+    "key": "linksOnNavBar",
+    "value": "nav[class='main-menu'] a",
+    "type": "css"
+  }
+]

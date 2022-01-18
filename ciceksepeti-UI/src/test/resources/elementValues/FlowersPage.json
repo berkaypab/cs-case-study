@@ -1,0 +1,27 @@
+[
+  {
+    "key": "sortButton",
+    "value": "div[class*='js-filter-item js-filter-sort-item'] a",
+    "type": "css"
+  },
+  {
+    "key": "priceHighToLowRadioButton",
+    "value": "//input[@value='Price: High to Low']/parent::li",
+    "type": "xpath"
+  },
+  {
+    "key": "hasNextPage",
+    "value": "input[name='hasNextPage']",
+    "type": "css"
+  },
+  {
+    "key": "productPricesIntegerValue",
+    "value": "//div[@class='price' or @class='price price--new']//span[@class='price__integer-value']",
+    "type": "xpath"
+  },
+  {
+    "key": "productsInPage",
+    "value": "//div[contains(@class, 'products__item js-category-item-hover')]",
+    "type": "xpath"
+  }
+]

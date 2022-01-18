@@ -1,0 +1,38 @@
+[
+
+  {
+    "key": "formRecipientName",
+    "value": "input[id='GroupDeliveryAddressList_0__Address_AddressName']",
+    "type": "css"
+  },
+  {
+    "key": "drpPhoneNumber",
+    "value": "select[id='GroupDeliveryAddressList[0].Address.Phone.CountryCodeId']",
+    "type": "css"
+  },
+  {
+    "key": "drpPhoneNumberSelectableItems",
+    "value": "div[class='selectize-dropdown-content'] div",
+    "type": "css"
+  },
+  {
+    "key": "drpDownClick",
+    "value": "div[class*='selectize-input items full has-options']",
+    "type": "css"
+  },
+  {
+    "key": "lblPhoneNumber",
+    "value": "input[id='GroupDeliveryAddressList_0__Address_Phone_Phone']",
+    "type": "css"
+  },
+  {
+    "key": "drpDownDynamicAddress",
+    "value": "div[class$='js-search-address-wrapper '] input",
+    "type": "css"
+  },
+  {
+    "key": "drpDownAutoSuggestiveAddressContent",
+    "value": "//div[@class='form-group search-address-wrapper js-search-address-wrapper ']//div[@class='selectize-dropdown-content']//p",
+    "type": "xpath"
+  }
+]

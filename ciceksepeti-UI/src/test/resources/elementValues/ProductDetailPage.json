@@ -1,0 +1,7 @@
+[
+  {
+    "key": "addToCartButton",
+    "value": "div[class='product__action-col'] button",
+    "type": "css"
+  }
+]

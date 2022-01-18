@@ -1,0 +1,443 @@
+src\main\java\WebAutomationBase\helper\ElementHelper.java:4: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.By;
+                          ^
+src\main\java\WebAutomationBase\helper\ElementHelper.java:9: error: cannot find symbol
+    public static By getElementInfoToBy(ElementInfo elementInfo) {
+                  ^
+  symbol:   class By
+  location: class ElementHelper
+src\main\java\WebAutomationBase\helper\StoreHelper.java:7: error: package org.slf4j does not exist
+import org.slf4j.Logger;
+                ^
+src\main\java\WebAutomationBase\helper\StoreHelper.java:8: error: package org.slf4j does not exist
+import org.slf4j.LoggerFactory;
+                ^
+src\main\java\WebAutomationBase\helper\StoreHelper.java:21: error: cannot find symbol
+    Logger logger = LoggerFactory.getLogger(getClass());
+    ^
+  symbol:   class Logger
+  location: class StoreHelper
+src\test\java\driver\CustomScreenshotGrabber.java:4: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.OutputType;
+                          ^
+src\test\java\driver\CustomScreenshotGrabber.java:5: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.TakesScreenshot;
+                          ^
+src\test\java\driver\Driver.java:5: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.OutputType;
+                          ^
+src\test\java\driver\Driver.java:6: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.TakesScreenshot;
+                          ^
+src\test\java\driver\Driver.java:7: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebDriver;
+                          ^
+src\test\java\driver\Driver.java:14: error: cannot find symbol
+    public static WebDriver driver;
+                  ^
+  symbol:   class WebDriver
+  location: class Driver
+src\test\java\driver\DriverFactory.java:3: error: package io.github.bonigarcia.wdm does not exist
+import io.github.bonigarcia.wdm.WebDriverManager;
+                               ^
+src\test\java\driver\DriverFactory.java:4: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebDriver;
+                          ^
+src\test\java\driver\DriverFactory.java:5: error: package org.openqa.selenium.chrome does not exist
+import org.openqa.selenium.chrome.ChromeDriver;
+                                 ^
+src\test\java\driver\DriverFactory.java:6: error: package org.openqa.selenium.firefox does not exist
+import org.openqa.selenium.firefox.FirefoxDriver;
+                                  ^
+src\test\java\driver\DriverFactory.java:7: error: package org.openqa.selenium.ie does not exist
+import org.openqa.selenium.ie.InternetExplorerDriver;
+                             ^
+src\test\java\driver\DriverFactory.java:8: error: package org.openqa.selenium.chrome does not exist
+import org.openqa.selenium.chrome.ChromeOptions;
+                                 ^
+src\test\java\driver\DriverFactory.java:9: error: package org.openqa.selenium.remote does not exist
+import org.openqa.selenium.remote.CapabilityType;
+                                 ^
+src\test\java\driver\DriverFactory.java:16: error: cannot find symbol
+    public static WebDriver getDriver() {
+                  ^
+  symbol:   class WebDriver
+  location: class DriverFactory
+src\test\java\org\example\StepImplementation.java:11: error: package io.qameta.allure does not exist
+import io.qameta.allure.Description;
+                       ^
+src\test\java\org\example\StepImplementation.java:12: error: package io.qameta.allure does not exist
+import io.qameta.allure.Severity;
+                       ^
+src\test\java\org\example\StepImplementation.java:14: error: package io.qameta.allure does not exist
+import io.qameta.allure.SeverityLevel;
+                       ^
+src\test\java\org\example\StepImplementation.java:15: error: package io.qameta.allure does not exist
+import io.qameta.allure.Story;
+                       ^
+src\test\java\org\example\StepImplementation.java:17: error: package org.junit does not exist
+import org.junit.Assert;
+                ^
+src\test\java\org\example\StepImplementation.java:19: error: package org.openqa.selenium.interactions does not exist
+import org.openqa.selenium.interactions.Actions;
+                                       ^
+src\test\java\org\example\StepImplementation.java:20: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.ExpectedCondition;
+                                     ^
+src\test\java\org\example\StepImplementation.java:21: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.ExpectedConditions;
+                                     ^
+src\test\java\org\example\StepImplementation.java:22: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.Select;
+                                     ^
+src\test\java\org\example\StepImplementation.java:23: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.WebDriverWait;
+                                     ^
+src\test\java\org\example\StepImplementation.java:24: error: package org.slf4j does not exist
+import org.slf4j.Logger;
+                ^
+src\test\java\org\example\StepImplementation.java:25: error: package org.slf4j does not exist
+import org.slf4j.LoggerFactory;
+                ^
+src\test\java\org\example\StepImplementation.java:38: error: package org.junit does not exist
+import static org.junit.Assert.*;
+                       ^
+src\test\java\org\example\StepImplementation.java:43: error: cannot find symbol
+    private Logger logger = LoggerFactory.getLogger(StepImplementation.class);
+            ^
+  symbol:   class Logger
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:44: error: cannot find symbol
+    private final Actions action;
+                  ^
+  symbol:   class Actions
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:54: error: cannot find symbol
+    private WebElement findElement(String key) {
+            ^
+  symbol:   class WebElement
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:69: error: cannot find symbol
+    private List<WebElement> findElements(String key) {
+                 ^
+  symbol:   class WebElement
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:77: error: cannot find symbol
+    private void clickElement(WebElement element) {
+                              ^
+  symbol:   class WebElement
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:114: error: cannot find symbol
+    private JavascriptExecutor getJSExecutor() {
+            ^
+  symbol:   class JavascriptExecutor
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:148: error: cannot find symbol
+    private WebElement scrollToElementToBeVisible(String key) {
+            ^
+  symbol:   class WebElement
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:157: error: cannot find symbol
+    private WebElement scrollToElementToBeVisibleWithElement(WebElement element) {
+                                                             ^
+  symbol:   class WebElement
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:157: error: cannot find symbol
+    private WebElement scrollToElementToBeVisibleWithElement(WebElement element) {
+            ^
+  symbol:   class WebElement
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:166: error: cannot find symbol
+    private static void highlightElement(WebElement ele) {
+                                         ^
+  symbol:   class WebElement
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:187: error: cannot find symbol
+    private WebElement findElementWithKey(String key) {
+            ^
+  symbol:   class WebElement
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:197: error: cannot find symbol
+    private boolean isDisplayedBy(By by) {
+                                  ^
+  symbol:   class By
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:493: error: cannot find symbol
+    public void javaScriptClicker(WebElement element) {
+                                  ^
+  symbol:   class WebElement
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:605: error: cannot find symbol
+    private void hoverElement(WebElement element) {
+                              ^
+  symbol:   class WebElement
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:18: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.*;
+^
+src\test\java\org\example\StepImplementation.java:244: error: cannot find symbol
+    @Description("Navigate to homepage")
+     ^
+  symbol:   class Description
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:245: error: cannot find symbol
+    @Severity(SeverityLevel.BLOCKER)
+     ^
+  symbol:   class Severity
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:245: error: cannot find symbol
+    @Severity(SeverityLevel.BLOCKER)
+              ^
+  symbol:   variable SeverityLevel
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:246: error: cannot find symbol
+    @Story("User navigates the home page")
+     ^
+  symbol:   class Story
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:256: error: cannot find symbol
+    @Description("Navigate to Given Page")
+     ^
+  symbol:   class Description
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:257: error: cannot find symbol
+    @Severity(SeverityLevel.BLOCKER)
+     ^
+  symbol:   class Severity
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:257: error: cannot find symbol
+    @Severity(SeverityLevel.BLOCKER)
+              ^
+  symbol:   variable SeverityLevel
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:258: error: cannot find symbol
+    @Story("User navigates to given page")
+     ^
+  symbol:   class Story
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:366: error: cannot find symbol
+    @Description("Send Keys to Element")
+     ^
+  symbol:   class Description
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:367: error: cannot find symbol
+    @Severity(SeverityLevel.NORMAL)
+     ^
+  symbol:   class Severity
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:367: error: cannot find symbol
+    @Severity(SeverityLevel.NORMAL)
+              ^
+  symbol:   variable SeverityLevel
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:368: error: cannot find symbol
+    @Story("User send keys to to given element")
+     ^
+  symbol:   class Story
+  location: class StepImplementation
+src\main\java\WebAutomationBase\helper\ElementHelper.java:10: error: cannot find symbol
+        By by = null;
+        ^
+  symbol:   class By
+  location: class ElementHelper
+src\main\java\WebAutomationBase\helper\ElementHelper.java:12: error: cannot find symbol
+            by = By.cssSelector(elementInfo.getValue());
+                 ^
+  symbol:   variable By
+  location: class ElementHelper
+src\main\java\WebAutomationBase\helper\ElementHelper.java:15: error: cannot find symbol
+            by = By.name(elementInfo.getValue());
+                 ^
+  symbol:   variable By
+  location: class ElementHelper
+src\main\java\WebAutomationBase\helper\ElementHelper.java:18: error: cannot find symbol
+            by = By.id(elementInfo.getValue());
+                 ^
+  symbol:   variable By
+  location: class ElementHelper
+src\main\java\WebAutomationBase\helper\ElementHelper.java:20: error: cannot find symbol
+            by = By.xpath(elementInfo.getValue());
+                 ^
+  symbol:   variable By
+  location: class ElementHelper
+src\main\java\WebAutomationBase\helper\ElementHelper.java:22: error: cannot find symbol
+            by = By.linkText(elementInfo.getValue());
+                 ^
+  symbol:   variable By
+  location: class ElementHelper
+src\main\java\WebAutomationBase\helper\ElementHelper.java:24: error: cannot find symbol
+            by = By.partialLinkText(elementInfo.getValue());
+                 ^
+  symbol:   variable By
+  location: class ElementHelper
+src\main\java\WebAutomationBase\helper\StoreHelper.java:21: error: cannot find symbol
+    Logger logger = LoggerFactory.getLogger(getClass());
+                    ^
+  symbol:   variable LoggerFactory
+  location: class StoreHelper
+src\test\java\driver\Driver.java:36: error: cannot find symbol
+            File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+                                                                     ^
+  symbol:   variable OutputType
+  location: class Driver
+src\test\java\driver\Driver.java:36: error: cannot find symbol
+            File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+                             ^
+  symbol:   class TakesScreenshot
+  location: class Driver
+src\test\java\driver\DriverFactory.java:23: error: cannot find symbol
+                WebDriverManager.iedriver().setup();
+                ^
+  symbol:   variable WebDriverManager
+  location: class DriverFactory
+src\test\java\driver\DriverFactory.java:24: error: cannot find symbol
+                return new InternetExplorerDriver();
+                           ^
+  symbol:   class InternetExplorerDriver
+  location: class DriverFactory
+src\test\java\driver\DriverFactory.java:26: error: cannot find symbol
+                WebDriverManager.firefoxdriver().setup();
+                ^
+  symbol:   variable WebDriverManager
+  location: class DriverFactory
+src\test\java\driver\DriverFactory.java:27: error: cannot find symbol
+                return new FirefoxDriver();
+                           ^
+  symbol:   class FirefoxDriver
+  location: class DriverFactory
+src\test\java\driver\DriverFactory.java:30: error: cannot find symbol
+                WebDriverManager.chromedriver().setup();
+                ^
+  symbol:   variable WebDriverManager
+  location: class DriverFactory
+src\test\java\driver\DriverFactory.java:31: error: cannot find symbol
+                ChromeOptions options = new ChromeOptions();
+                ^
+  symbol:   class ChromeOptions
+  location: class DriverFactory
+src\test\java\driver\DriverFactory.java:31: error: cannot find symbol
+                ChromeOptions options = new ChromeOptions();
+                                            ^
+  symbol:   class ChromeOptions
+  location: class DriverFactory
+src\test\java\driver\DriverFactory.java:47: error: cannot find symbol
+                options.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
+                                      ^
+  symbol:   variable CapabilityType
+  location: class DriverFactory
+src\test\java\driver\DriverFactory.java:59: error: cannot find symbol
+                return new ChromeDriver(options);
+                           ^
+  symbol:   class ChromeDriver
+  location: class DriverFactory
+src\test\java\org\example\StepImplementation.java:43: error: cannot find symbol
+    private Logger logger = LoggerFactory.getLogger(StepImplementation.class);
+                            ^
+  symbol:   variable LoggerFactory
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:51: error: cannot find symbol
+        action = new Actions(driver);
+                     ^
+  symbol:   class Actions
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:56: error: cannot find symbol
+        By infoParam = ElementHelper.getElementInfoToBy(elementInfo);
+        ^
+  symbol:   class By
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:57: error: cannot find symbol
+        WebDriverWait webDriverWait = new WebDriverWait(driver, 20);
+        ^
+  symbol:   class WebDriverWait
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:57: error: cannot find symbol
+        WebDriverWait webDriverWait = new WebDriverWait(driver, 20);
+                                          ^
+  symbol:   class WebDriverWait
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:58: error: cannot find symbol
+        WebElement webElement = webDriverWait
+        ^
+  symbol:   class WebElement
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:59: error: cannot find symbol
+                .until(ExpectedConditions.presenceOfElementLocated(infoParam));
+                       ^
+  symbol:   variable ExpectedConditions
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:60: error: cannot find symbol
+        webDriverWait.until((ExpectedCondition<Boolean>) wd ->
+                             ^
+  symbol:   class ExpectedCondition
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:62: error: cannot find symbol
+        ((JavascriptExecutor) driver).executeScript(
+          ^
+  symbol:   class JavascriptExecutor
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:71: error: cannot find symbol
+        By infoParam = ElementHelper.getElementInfoToBy(elementInfo);
+        ^
+  symbol:   class By
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:115: error: cannot find symbol
+        return (JavascriptExecutor) driver;
+                ^
+  symbol:   class JavascriptExecutor
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:150: error: cannot find symbol
+        WebElement webElement = driver.findElement(ElementHelper.getElementInfoToBy(elementInfo));
+        ^
+  symbol:   class WebElement
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:169: error: cannot find symbol
+                JavascriptExecutor js = (JavascriptExecutor) driver;
+                ^
+  symbol:   class JavascriptExecutor
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:169: error: cannot find symbol
+                JavascriptExecutor js = (JavascriptExecutor) driver;
+                                         ^
+  symbol:   class JavascriptExecutor
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:178: error: cannot find symbol
+        WebElement webElement = findElement(key);
+        ^
+  symbol:   class WebElement
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:203: error: cannot find symbol
+        Select select = new Select(findElement(key));
+        ^
+  symbol:   class Select
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:203: error: cannot find symbol
+        Select select = new Select(findElement(key));
+                            ^
+  symbol:   class Select
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:216: error: cannot find symbol
+        List<WebElement> list = findElements(key);
+             ^
+  symbol:   class WebElement
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:217: error: cannot find symbol
+        for (WebElement l : list) {
+             ^
+  symbol:   class WebElement
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:346: error: cannot find symbol
+        List<WebElement> listOfElements = null;
+             ^
+  symbol:   class WebElement
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:358: error: cannot find symbol
+            assertEquals(itemSizeInEveryPage, (listSize - tempCounter));
+            ^
+  symbol:   method assertEquals(int,int)
+  location: class StepImplementation
+src\test\java\org\example\StepImplementation.java:379: error: cannot find symbol
+        List<WebElement> contentList = findElements(key);
+             ^
+  symbol:   class WebElement
+  location: class StepImplementation
+100 errors

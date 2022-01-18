@@ -1,0 +1,323 @@
+{"logLevel":"debug","message":"multithreading is set to true"}
+{"logLevel":"debug","message":"multithreading enabled, but could not read GAUGE_PARALLEL_STREAMS_COUNT as int. Got GAUGE_PARALLEL_STREAMS_COUNT=null"}
+{"logLevel":"debug","message":"using numberOfStreams=1, err: null"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 813milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 813"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 60721"}
+{"logLevel":"info","message":"Listening on port:60721"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.checkElementContainsText' and 'org.example.StepImplementation.checkElementContainsText'"}
+{"logLevel":"debug","message":"Found Check if element {} contains text {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.checkElementContainsText' and 'org.example.StepImplementation.checkElementContainsText'"}
+{"logLevel":"debug","message":"Found {} elementi {} değerini içeriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.checkElementContainsText' and 'org.example.StepImplementation.checkElementContainsText'"}
+{"logLevel":"debug","message":"Found Check if title contains text {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.checkElementContainsText' and 'org.example.StepImplementation.checkElementContainsText'"}
+{"logLevel":"debug","message":"Found Title {} değerini içeriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.jsClicker' and 'org.example.StepImplementation.jsClicker'"}
+{"logLevel":"debug","message":"Found Click with js method {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.asdfas' and 'org.example.StepImplementation.asdfas'"}
+{"logLevel":"debug","message":"Found {} has next degeri true ise her sayfada bulunan {} li key ile 60 urun yuklendigini dogrula in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.asdfas' and 'org.example.StepImplementation.asdfas'"}
+{"logLevel":"debug","message":"Found If {} element's attribute value true then verify 60 products loaded in every page with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.selectFromAutoSuggestiveDropDown' and 'org.example.StepImplementation.selectFromAutoSuggestiveDropDown'"}
+{"logLevel":"debug","message":"Found Select address from auto suggestive dropdown with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.scrollToElement' and 'org.example.StepImplementation.scrollToElement'"}
+{"logLevel":"debug","message":"Found {} alanına kaydır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.clickElement' and 'org.example.StepImplementation.clickElement'"}
+{"logLevel":"debug","message":"Found Click to element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.clickElement' and 'org.example.StepImplementation.clickElement'"}
+{"logLevel":"debug","message":"Found Elementine tıkla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.chooseRandomElementFromList' and 'org.example.StepImplementation.chooseRandomElementFromList'"}
+{"logLevel":"debug","message":"Found {} menu listesinden rasgele seç in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.checkRelativePosition' and 'org.example.StepImplementation.checkRelativePosition'"}
+{"logLevel":"debug","message":"Found Check position {} relative to {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.javascriptClickerWithCss' and 'org.example.StepImplementation.javascriptClickerWithCss'"}
+{"logLevel":"debug","message":"Found Click with javascript to css {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.javascriptClickerWithCss' and 'org.example.StepImplementation.javascriptClickerWithCss'"}
+{"logLevel":"debug","message":"Found Javascript ile css tıkla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.navigateToHomePage' and 'org.example.StepImplementation.navigateToHomePage'"}
+{"logLevel":"debug","message":"Found Navigate to home page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.hoverByGivenElement' and 'org.example.StepImplementation.hoverByGivenElement'"}
+{"logLevel":"debug","message":"Found Hover by given element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.brokenLinkCheck' and 'org.example.StepImplementation.brokenLinkCheck'"}
+{"logLevel":"debug","message":"Found Check broken links with {} element in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.sendKeysToGivenElement' and 'org.example.StepImplementation.sendKeysToGivenElement'"}
+{"logLevel":"debug","message":"Found Send {} Keys to given element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.isEnableSection' and 'org.example.StepImplementation.isEnableSection'"}
+{"logLevel":"debug","message":"Found Element with {} is enable on website in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.isEnableSection' and 'org.example.StepImplementation.isEnableSection'"}
+{"logLevel":"debug","message":"Found {} li element sayfada enable mı kontrol et  in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.s' and 'org.example.StepImplementation.s'"}
+{"logLevel":"debug","message":"Found Select {} list with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.switchTabsUsingPartOfUrl' and 'org.example.StepImplementation.switchTabsUsingPartOfUrl'"}
+{"logLevel":"debug","message":"Found Check if new tab has verified url {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.isDisplayedSection' and 'org.example.StepImplementation.isDisplayedSection'"}
+{"logLevel":"debug","message":"Found Element with {} is displayed on website in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.isDisplayedSection' and 'org.example.StepImplementation.isDisplayedSection'"}
+{"logLevel":"debug","message":"Found {} li element sayfada görüntüleniyor mu kontrol et  in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.waitUntilElementsLoadedAndCheckSortingSuccessful' and 'org.example.StepImplementation.waitUntilElementsLoadedAndCheckSortingSuccessful'"}
+{"logLevel":"debug","message":"Found Wait until elements loaded {} and verify sorting in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.checkElementAttributeExists' and 'org.example.StepImplementation.checkElementAttributeExists'"}
+{"logLevel":"debug","message":"Found Check if element {} has attribute {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.checkElementAttributeExists' and 'org.example.StepImplementation.checkElementAttributeExists'"}
+{"logLevel":"debug","message":"Found {} elementi {} niteliğine sahip mi in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.navigateToGivenPage' and 'org.example.StepImplementation.navigateToGivenPage'"}
+{"logLevel":"debug","message":"Found Navigate to given page {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.waitUntilImageUploadedAndClickCheckBox' and 'org.example.StepImplementation.waitUntilImageUploadedAndClickCheckBox'"}
+{"logLevel":"debug","message":"Found Wait until image uploaded and click checkbox {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.javascriptClickerWithXpath' and 'org.example.StepImplementation.javascriptClickerWithXpath'"}
+{"logLevel":"debug","message":"Found Click with javascript to xpath {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.javascriptClickerWithXpath' and 'org.example.StepImplementation.javascriptClickerWithXpath'"}
+{"logLevel":"debug","message":"Found Javascript ile xpath tıkla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.getElementWithKeyIfExistsWithMessage' and 'org.example.StepImplementation.getElementWithKeyIfExistsWithMessage'"}
+{"logLevel":"debug","message":"Found Check if element {} exists else print message {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.getElementWithKeyIfExistsWithMessage' and 'org.example.StepImplementation.getElementWithKeyIfExistsWithMessage'"}
+{"logLevel":"debug","message":"Found Element {} var mı kontrol et yoksa hata mesajı ver {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.select' and 'org.example.StepImplementation.select'"}
+{"logLevel":"debug","message":"Found Select from {} list with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.isExistOnCartPage' and 'org.example.StepImplementation.isExistOnCartPage'"}
+{"logLevel":"debug","message":"Found {} product is exist on cart page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.warningMessageShouldBe' and 'org.example.StepImplementation.warningMessageShouldBe'"}
+{"logLevel":"debug","message":"Found Given element {} dynamic text area warning message should be in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.waitByMilliSeconds' and 'org.example.StepImplementation.waitByMilliSeconds'"}
+{"logLevel":"debug","message":"Found Wait {} milliseconds in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.waitByMilliSeconds' and 'org.example.StepImplementation.waitByMilliSeconds'"}
+{"logLevel":"debug","message":"Found {} milisaniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.asdf' and 'org.example.StepImplementation.asdf'"}
+{"logLevel":"debug","message":"Found Check if {} element's attribute value {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.textRangeAndWarningMessageShouldBe' and 'org.example.StepImplementation.textRangeAndWarningMessageShouldBe'"}
+{"logLevel":"debug","message":"Found Given element {} dynamic text area range should be max {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.uploadImage' and 'org.example.StepImplementation.uploadImage'"}
+{"logLevel":"debug","message":"Found Upload file to given {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementationHomePage.implementation1' and 'org.example.StepImplementationHomePage.implementation1'"}
+{"logLevel":"debug","message":"Found HomePage Actions in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.scrollToElementWithJs' and 'org.example.StepImplementation.scrollToElementWithJs'"}
+{"logLevel":"debug","message":"Found Scroll to {} field in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.scrollToElementWithJs' and 'org.example.StepImplementation.scrollToElementWithJs'"}
+{"logLevel":"debug","message":"Found {} alanına js ile kaydır in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tWait {} milliseconds : public void waitByMilliSeconds(long milliseconds)"}
+{"logLevel":"debug","message":"\tJavascript ile css tıkla {} : public void javascriptClickerWithCss(String css)"}
+{"logLevel":"debug","message":"\t{} milisaniye bekle : public void waitByMilliSeconds(long milliseconds)"}
+{"logLevel":"debug","message":"\tCheck if element {} has attribute {} : public void checkElementAttributeExists(String key, String attribute)"}
+{"logLevel":"debug","message":"\tGiven element {} dynamic text area range should be max {} : public void textRangeAndWarningMessageShouldBe(String key, String limit)"}
+{"logLevel":"debug","message":"\tCheck if {} element's attribute value {} : public void asdf(String key, String active)"}
+{"logLevel":"debug","message":"\tHomePage Actions : public void implementation1()"}
+{"logLevel":"debug","message":"\tElement {} var mı kontrol et yoksa hata mesajı ver {} : public void getElementWithKeyIfExistsWithMessage(String key, String message)"}
+{"logLevel":"debug","message":"\tNavigate to given page {} : public void navigateToGivenPage(String string)"}
+{"logLevel":"debug","message":"\t{} elementi {} değerini içeriyor mu kontrol et : public void checkElementContainsText(String key, String expectedText)"}
+{"logLevel":"debug","message":"\tWait until image uploaded and click checkbox {} : public void waitUntilImageUploadedAndClickCheckBox(String key)"}
+{"logLevel":"debug","message":"\tSelect from {} list with {} : public void select(String key, String text)"}
+{"logLevel":"debug","message":"\tCheck if element {} exists else print message {} : public void getElementWithKeyIfExistsWithMessage(String key, String message)"}
+{"logLevel":"debug","message":"\tCheck if new tab has verified url {} : public void switchTabsUsingPartOfUrl(String key)"}
+{"logLevel":"debug","message":"\tUpload file to given {} : public void uploadImage(String key) throws AWTException, InterruptedException"}
+{"logLevel":"debug","message":"\tCheck broken links with {} element : public void brokenLinkCheck(String key) throws InterruptedException"}
+{"logLevel":"debug","message":"\tHover by given element {} : public void hoverByGivenElement(String key)"}
+{"logLevel":"debug","message":"\tCheck if title contains text {} : public void checkElementContainsText(String expectedText)"}
+{"logLevel":"debug","message":"\tGiven element {} dynamic text area warning message should be : public void warningMessageShouldBe(String key)"}
+{"logLevel":"debug","message":"\t{} li element sayfada görüntüleniyor mu kontrol et  : public void isDisplayedSection(String key)"}
+{"logLevel":"debug","message":"\t{} has next degeri true ise her sayfada bulunan {} li key ile 60 urun yuklendigini dogrula : public void asdfas(String key, String elements) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} alanına kaydır : public void scrollToElement(String key)"}
+{"logLevel":"debug","message":"\tTitle {} değerini içeriyor mu kontrol et : public void checkElementContainsText(String expectedText)"}
+{"logLevel":"debug","message":"\tElement with {} is enable on website : public void isEnableSection(String key)"}
+{"logLevel":"debug","message":"\tSend {} Keys to given element {} : public void sendKeysToGivenElement(String text, String key)"}
+{"logLevel":"debug","message":"\t{} elementi {} niteliğine sahip mi : public void checkElementAttributeExists(String key, String attribute)"}
+{"logLevel":"debug","message":"\tJavascript ile xpath tıkla {} : public void javascriptClickerWithXpath(String xpath)"}
+{"logLevel":"debug","message":"\t{} alanına js ile kaydır : public void scrollToElementWithJs(String key)"}
+{"logLevel":"debug","message":"\t{} product is exist on cart page : public void isExistOnCartPage(String key)"}
+{"logLevel":"debug","message":"\tSelect {} list with {} : public void s(String key, String option)"}
+{"logLevel":"debug","message":"\tScroll to {} field : public void scrollToElementWithJs(String key)"}
+{"logLevel":"debug","message":"\tCheck if element {} contains text {} : public void checkElementContainsText(String key, String expectedText)"}
+{"logLevel":"debug","message":"\t{} menu listesinden rasgele seç : public void chooseRandomElementFromList(String key)"}
+{"logLevel":"debug","message":"\tClick to element {} : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\tWait until elements loaded {} and verify sorting : public void waitUntilElementsLoadedAndCheckSortingSuccessful(String key)"}
+{"logLevel":"debug","message":"\tClick with js method {} : public void jsClicker(String key)"}
+{"logLevel":"debug","message":"\t{} li element sayfada enable mı kontrol et  : public void isEnableSection(String key)"}
+{"logLevel":"debug","message":"\tCheck position {} relative to {} : public Boolean checkRelativePosition(String key1, String key2)"}
+{"logLevel":"debug","message":"\tIf {} element's attribute value true then verify 60 products loaded in every page with {} : public void asdfas(String key, String elements) throws InterruptedException"}
+{"logLevel":"debug","message":"\tNavigate to home page : public void navigateToHomePage()"}
+{"logLevel":"debug","message":"\tElement with {} is displayed on website : public void isDisplayedSection(String key)"}
+{"logLevel":"debug","message":"\tSelect address from auto suggestive dropdown with {} : public void selectFromAutoSuggestiveDropDown(String key)"}
+{"logLevel":"debug","message":"\tClick with javascript to xpath {} : public void javascriptClickerWithXpath(String xpath)"}
+{"logLevel":"debug","message":"\tClick with javascript to css {} : public void javascriptClickerWithCss(String css)"}
+{"logLevel":"debug","message":"\tElementine tıkla {} : public void clickElement(String key)"}
+Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 20618
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1642131549.650][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1642131549.650][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+Oca 14, 2022 6:39:10 ÖÖ org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Navigate to given page {}' using 'class org.example.StepImplementation.navigateToGivenPage"}
+{"logLevel":"debug","message":"Executing 'Wait {} milliseconds' using 'class org.example.StepImplementation.waitByMilliSeconds"}
+{"logLevel":"debug","message":"Executing 'Click to element {}' using 'class org.example.StepImplementation.clickElement"}
+{"logLevel":"debug","message":"Executing 'Check broken links with {} element' using 'class org.example.StepImplementation.brokenLinkCheck"}
+0. : https://www.mizu.com/en-mx/occasions
+1. : https://www.mizu.com/en-mx/occasions
+2. : https://www.mizu.com/en-mx/birthday
+3. : https://www.mizu.com/en-mx/anniversary
+4. : https://www.mizu.com/en-mx/graduation
+5. : https://www.mizu.com/en-mx/funeral
+6. : https://www.mizu.com/en-mx/just-because
+7. : https://www.mizu.com/en-mx/congratulations
+8. : https://www.mizu.com/en-mx/i-am-sorry
+9. : https://www.mizu.com/en-mx/get-well
+10. : https://www.mizu.com/en-mx/new-baby
+11. : https://www.mizu.com/en-mx/thank-you
+12. : https://www.mizu.com/en-mx/new-job
+13. : https://www.mizu.com/birthday
+14. : https://www.mizu.com/en-mx/birthday-of-her
+15. : https://www.mizu.com/en-mx/birthday-of-him
+16. : https://www.mizu.com/en-mx/birthday-flowers
+17. : https://www.mizu.com/en-mx/birthday-gifts
+18. : https://www.mizu.com/en-mx/birthday-gourmet
+19. : https://www.mizu.com/en-mx/occasions-balloons
+20. : https://www.mizu.com/en-mx/birthday-kits
+21. : https://www.mizu.com/en-mx/personalized-gifts-birthday
+22. : https://www.mizu.com/anniversary
+23. : https://www.mizu.com/just-because
+24. : https://www.mizu.com/congratulations
+25. : https://www.mizu.com/i-am-sorry
+26. : https://www.mizu.com/get-well
+27. : https://www.mizu.com/new-baby
+28. : https://www.mizu.com/thank-you
+29. : https://www.mizu.com/new-job
+30. : https://www.mizu.com/en-mx/new-job-gifts
+31. : https://www.mizu.com/en-mx/personalized-gifts
+32. : https://www.mizu.com/en-mx/potted-flowers
+33. : https://www.mizu.com/en-mx/flowers
+34. : https://www.mizu.com/en-mx/flowers
+35. : https://www.mizu.com/en-mx/offers-flowers
+36. : https://www.mizu.com/en-mx/affordable-flowers-250
+37. : https://www.mizu.com/en-mx/new-arrangements
+38. : https://www.mizu.com/en-mx/birthday-flowers
+39. : https://www.mizu.com/en-mx/flower-arrangements
+40. : https://www.mizu.com/en-mx/flower-baskets
+41. : https://www.mizu.com/en-mx/flower-types
+42. : https://www.mizu.com/en-mx/bundles
+43. : https://www.mizu.com/en-mx/bundles-stuffed-toys
+44. : https://www.mizu.com/en-mx/potted-flowers
+45. : https://www.mizu.com/en-mx/bouquets
+46. : https://www.mizu.com/en-mx/funeral-arrangements
+47. : https://www.mizu.com/flower-types
+48. : https://www.mizu.com/en-mx/roses
+49. : https://www.mizu.com/en-mx/orchids
+50. : https://www.mizu.com/en-mx/gerbera
+51. : https://www.mizu.com/en-mx/sunflowers
+52. : https://www.mizu.com/en-mx/lillies
+53. : https://www.mizu.com/en-mx/daisies
+54. : https://www.mizu.com/en-mx/carnation
+55. : https://www.mizu.com/potted-flowers
+56. : https://www.mizu.com/bouquets
+57. : https://www.mizu.com/en-mx/gifts
+58. : https://www.mizu.com/en-mx/gifts
+59. : https://www.mizu.com/en-mx/gift-offers
+60. : https://www.mizu.com/en-mx/gifts-same-day
+61. : https://www.mizu.com/en-mx/new
+62. : https://www.mizu.com/en-mx/occasions-gifts
+63. : https://www.mizu.com/en-mx/balloons
+64. : https://www.mizu.com/en-mx/gifts-for-him
+65. : https://www.mizu.com/en-mx/gifts-for-her
+66. : https://www.mizu.com/en-mx/breakfast-meal
+67. : https://www.mizu.com/en-mx/personalized-gifts
+68. : https://www.mizu.com/en-mx/gift-sets
+69. : https://www.mizu.com/en-mx/perfumes
+70. : https://www.mizu.com/en-mx/new-baby-gifts
+71. : https://www.mizu.com/en-mx/toys
+72. : https://www.mizu.com/en-mx/jewelry
+73. : https://www.mizu.com/en-mx/beauty-products
+74. : https://www.mizu.com/occasions-gifts
+75. : https://www.mizu.com/en-mx/birthday-gifts
+76. : https://www.mizu.com/en-mx/anniversary-gifts
+77. : https://www.mizu.com/en-mx/graduation-gifts
+78. : https://www.mizu.com/en-mx/new-baby-gifts
+79. : https://www.mizu.com/en-mx/congratulation-gifts
+80. : https://www.mizu.com/en-mx/get-well-gifts
+81. : https://www.mizu.com/en-mx/i-am-sorry-gifts
+82. : https://www.mizu.com/en-mx/new-job-gifts
+83. : https://www.mizu.com/balloons
+84. : https://www.mizu.com/personalized-gifts
+85. : https://www.mizu.com/gift-sets
+86. : https://www.mizu.com/perfumes
+87. : https://www.mizu.com/new-baby-gifts
+88. : https://www.mizu.com/toys
+89. : https://www.mizu.com/jewelry
+90. : https://www.mizu.com/en-mx/gourmet
+91. : https://www.mizu.com/en-mx/gourmet
+92. : https://www.mizu.com/en-mx/gourmet-offers
+93. : https://www.mizu.com/en-mx/new-products-gourmet
+94. : https://www.mizu.com/en-mx/breakfast-meal
+95. : https://www.mizu.com/en-mx/chocolates
+96. : https://www.mizu.com/en-mx/brownies
+97. : https://www.mizu.com/en-mx/sweets-and-candies
+98. : https://www.mizu.com/en-mx/cookies
+99. : https://www.mizu.com/en-mx/kits
+100. : https://www.mizu.com/en-mx/cakes
+101. : https://www.mizu.com/en-mx/boxed-truffles
+102. : https://www.mizu.com/chocolates
+103. : https://www.mizu.com/en-mx/boxed-chocolates
+104. : https://www.mizu.com/cookies
+105. : https://www.mizu.com/kits
+106. : https://www.mizu.com/cakes
+107. : https://www.mizu.com/en-mx/personalized-gifts
+108. : https://www.mizu.com/en-mx/personalized-gifts
+109. : https://www.mizu.com/en-mx/personalized-players
+110. : https://www.mizu.com/en-mx/personalized-balloons
+111. : https://www.mizu.com/en-mx/personalized-mugs
+112. : https://www.mizu.com/en-mx/gift-boxes-personalized
+113. : https://www.mizu.com/en-mx/personalized-photos
+114. : https://www.mizu.com/en-mx/personalized-jewelry
+115. : https://www.mizu.com/en-mx/personalized-blankets
+116. : https://www.mizu.com/en-mx/birthday
+117. : https://www.mizu.com/en-mx/birthday
+118. : https://www.mizu.com/en-mx/birthday-of-her
+119. : https://www.mizu.com/en-mx/birthday-of-him
+120. : https://www.mizu.com/en-mx/birthday-flowers
+121. : https://www.mizu.com/en-mx/birthday-gifts
+122. : https://www.mizu.com/en-mx/birthday-gourmet
+123. : https://www.mizu.com/en-mx/occasions-balloons
+124. : https://www.mizu.com/en-mx/birthday-kits
+125. : https://www.mizu.com/en-mx/personalized-gifts-birthday
+126. : https://www.mizu.com/en-mx/lolaphoto
+127. : https://www.mizu.com/en-mx/lolaphoto
+128. : https://www.mizu.com/en-mx/mugs-photos
+129. : https://www.mizu.com/en-mx/stationery-products-photos
+130. : https://www.mizu.com/en-mx/wall-frame
+131. : https://www.mizu.com/en-mx/clothing-photos
+132. : https://www.mizu.com/en-mx/home-and-living-photos
+133. : https://www.mizu.com/en-mx/home-products
+134. : https://www.mizu.com/en-mx/home-products
+135. : https://www.mizu.com/en-mx/decoration
+136. : https://www.mizu.com/en-mx/candles
+137. : https://www.mizu.com/en-mx/aromatherapy
+138. : https://www.mizu.com/en-mx/kitchenware
+139. : https://www.mizu.com/en-mx/mugs
+140. : https://www.mizu.com/stationery
+141. : https://www.mizu.com/en-mx/stationery
+142. : https://www.mizu.com/en-mx/fashion-and-accesories
+143. : https://www.mizu.com/en-mx/fashion-and-accesories
+144. : https://www.mizu.com/en-mx/clothing
+145. : https://www.mizu.com/en-mx/jewelry
+146. : https://www.mizu.com/en-mx/backpacks
+147. : https://www.mizu.com/en-mx/bags
+148. : https://www.mizu.com/en-mx/wallets-passport-holder
+149. : https://www.mizu.com/en-mx/keychain
+150. : https://www.mizu.com/en-mx/perfumes
+151. : https://www.mizu.com/en-mx/beauty-products
+152. : https://www.mizu.com/clothing
+153. : https://www.mizu.com/en-mx/personalized-players
+154. : https://www.mizu.com/jewelry
+155. : https://www.mizu.com/fresh-flowers
+156. : https://www.mizu.com/en-mx/fresh-flowers
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

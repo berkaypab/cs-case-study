@@ -1,0 +1,8 @@
+<testsuites>
+	<testsuite id="1" tests="1" failures="0" package="C:\Users\berka\Desktop\ciceksepeti-UI\specs\specs\cs-example.spec" time="10.564" timestamp="2022-01-18T04:48:50" name="Specification Heading" errors="0" hostname="DESKTOP-MK8UR93">
+		<properties></properties>
+		<testcase classname="Specification Heading" name="Ciceksepeti Sample Set" time="10.564"></testcase>
+		<system-out></system-out>
+		<system-err></system-err>
+	</testsuite>
+</testsuites>

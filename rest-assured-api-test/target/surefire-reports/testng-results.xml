@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-18T23:36:27 TRT" name="tests.UserTest" finished-at="2022-01-18T23:36:31 TRT" duration-ms="4102">
+    <groups>
+    </groups>
+    <test started-at="2022-01-18T23:36:27 TRT" name="Command line test" finished-at="2022-01-18T23:36:31 TRT" duration-ms="4102">
+      <class name="tests.UserTest">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:tests.UserTest@20deea7f]" started-at="2022-01-18T23:36:27 TRT" name="BeforeMethod" finished-at="2022-01-18T23:36:27 TRT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="TS0001()[pri:1, instance:tests.UserTest@20deea7f]" started-at="2022-01-18T23:36:27 TRT" name="TS0001" description="User Sign Up Successfully" finished-at="2022-01-18T23:36:29 TRT" duration-ms="2221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS0001 -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:tests.UserTest@20deea7f]" started-at="2022-01-18T23:36:29 TRT" name="BeforeMethod" finished-at="2022-01-18T23:36:29 TRT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="TS0002()[pri:2, instance:tests.UserTest@20deea7f]" started-at="2022-01-18T23:36:29 TRT" name="TS0002" description="User Sign Up Existing Account" finished-at="2022-01-18T23:36:30 TRT" duration-ms="731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS0002 -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:tests.UserTest@20deea7f]" started-at="2022-01-18T23:36:30 TRT" name="BeforeMethod" finished-at="2022-01-18T23:36:30 TRT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="TS0003()[pri:3, instance:tests.UserTest@20deea7f]" started-at="2022-01-18T23:36:30 TRT" name="TS0003" description="User Sign Up With Null Params" finished-at="2022-01-18T23:36:30 TRT" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS0003 -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:tests.UserTest@20deea7f]" started-at="2022-01-18T23:36:30 TRT" name="BeforeMethod" finished-at="2022-01-18T23:36:30 TRT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="TS0004()[pri:4, instance:tests.UserTest@20deea7f]" started-at="2022-01-18T23:36:30 TRT" name="TS0004" description="User Sign Up With Wrong Email and Password Length Shorter Than 8" finished-at="2022-01-18T23:36:30 TRT" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS0004 -->
+        <test-method signature="TS0005()[pri:5, instance:tests.UserTest@20deea7f]" started-at="2022-01-18T23:36:30 TRT" name="TS0005" description="User Sign Up With Valid Email and Password Length Shorter Than 8" finished-at="2022-01-18T23:36:31 TRT" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS0005 -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:tests.UserTest@20deea7f]" started-at="2022-01-18T23:36:30 TRT" name="BeforeMethod" finished-at="2022-01-18T23:36:30 TRT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:tests.UserTest@20deea7f]" started-at="2022-01-18T23:36:31 TRT" name="BeforeMethod" finished-at="2022-01-18T23:36:31 TRT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="TS0006()[pri:6, instance:tests.UserTest@20deea7f]" started-at="2022-01-18T23:36:31 TRT" name="TS0006" description="User Sign In Successfully" finished-at="2022-01-18T23:36:31 TRT" depends-on-methods="tests.UserTest.TS0001" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS0006 -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:tests.UserTest@20deea7f]" started-at="2022-01-18T23:36:31 TRT" name="BeforeMethod" finished-at="2022-01-18T23:36:31 TRT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="TS0007()[pri:7, instance:tests.UserTest@20deea7f]" started-at="2022-01-18T23:36:31 TRT" name="TS0007" description="User Sign In Null Params" finished-at="2022-01-18T23:36:31 TRT" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS0007 -->
+      </class> <!-- tests.UserTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- tests.UserTest -->
+</testng-results>

@@ -1,0 +1,29 @@
+2022-01-13 02:05:51,433 INFO  [log] Response status code : 201 
+2022-01-13 02:05:51,437 INFO  [log] User Signed Up 
+2022-01-13 02:05:51,760 INFO  [log] Response status code : 201 
+2022-01-13 02:05:51,761 INFO  [log] User Signed Up 
+2022-01-13 02:05:51,761 INFO  [log] Got user by username 
+2022-01-13 02:27:44,039 INFO  [log] Response status code : 400 
+2022-01-13 02:34:11,165 INFO  [log] Response status code : 400 
+2022-01-13 02:35:17,165 INFO  [log] [email must be an email, password must be longer than or equal to 8 characters] 
+2022-01-13 02:53:54,226 INFO  [log] [email must be an email, password must be longer than or equal to 8 characters] 
+2022-01-13 02:54:28,256 INFO  [log] Response status code : 201 
+2022-01-13 02:54:28,263 INFO  [log] User Signed In 
+2022-01-13 02:54:28,759 INFO  [log] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InhudGlwQG91dGxvb2suY29tIiwiaWQiOiJ3blNDUmlKalk1UGZiTUdNUks2VSIsImlhdCI6MTY0MjAzMTY2OH0.vir0WeDV9hhaSMjbRXnvIOkzvuzOAd6MAkCF4mbS6Eg 
+2022-01-13 02:55:20,030 INFO  [log] Response status code : 201 
+2022-01-13 02:55:20,036 INFO  [log] User Signed In 
+2022-01-13 02:55:20,518 INFO  [log] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImhrbnlrQG91dGxvb2suY29tIiwiaWQiOiJqVnhzb3A4eWxLZjlqTzNuWFJYSyIsImlhdCI6MTY0MjAzMTcxOX0.s7AW-Dxkv6xgAc2qBytYV62q3ipOpLpiSK4iLU20Xhg 
+2022-01-13 02:55:47,838 INFO  [log] Response status code : 201 
+2022-01-13 02:55:47,844 INFO  [log] User Signed In 
+2022-01-13 02:55:48,348 INFO  [log] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZoeGlxQG91dGxvb2suY29tIiwiaWQiOiJwcFoyWHUzTWtpZEZRS1Q4WFR2UyIsImlhdCI6MTY0MjAzMTc0N30.kYKoSE4073UdjbuX_PgtYcVz4rP_GCF1hBuddWA4XXw 
+2022-01-13 02:56:00,108 INFO  [log] Response status code : 201 
+2022-01-13 02:56:00,110 INFO  [log] User Signed In 
+2022-01-13 02:56:00,606 INFO  [log] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1mcmpsQG91dGxvb2suY29tIiwiaWQiOiJQVEJZY0JSdU5GUjFMN1pYd1JsViIsImlhdCI6MTY0MjAzMTc1OX0.y7VFLmylL8h9iH_mbrtmEEiQa3qpJB3Wr2eQCIR7BWM 
+2022-01-13 14:26:11,006 INFO  [log] [email must be an email, password must be longer than or equal to 8 characters] 
+2022-01-13 14:29:11,012 INFO  [log] [email must be an email, password must be longer than or equal to 8 characters] 
+2022-01-13 14:46:05,114 INFO  [log] Response status code : 201 
+2022-01-13 14:46:05,121 INFO  [log] User Signed In 
+2022-01-13 14:47:52,164 INFO  [log] Response status code : 201 
+2022-01-13 14:47:52,172 INFO  [log] User Signed In 
+2022-01-13 17:28:28,054 INFO  [log] Response status code : 201 
+2022-01-13 17:28:28,063 INFO  [log] User Signed In 

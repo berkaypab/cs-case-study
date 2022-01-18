@@ -1,0 +1,32 @@
+[
+  {
+    "key": "dynamicText",
+    "value": "dynamicText0",
+    "type": "id"
+  },
+  {
+    "key": "textAreaMessage",
+    "value": "span[class*='form-group__customizable-label']",
+    "type": "css"
+  },
+  {
+    "key": "confirmDesignCheckBox",
+    "value": "label[name='confirmation']",
+    "type": "css"
+  },
+  {
+    "key": "nextButton",
+    "value": "button[class='btn btn-lg btn-primary order-next-button js-add-to-cart-customize-product']",
+    "type": "css"
+  },
+  {
+    "key": "fileUploaderInputTag",
+    "value": "input[name='pic']",
+    "type": "css"
+  },
+  {
+    "key": "imageContainer",
+    "value": "img[class='custom-image__uploaded-image']",
+    "type": "css"
+  }
+]

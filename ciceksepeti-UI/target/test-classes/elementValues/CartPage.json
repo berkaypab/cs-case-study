@@ -1,0 +1,12 @@
+[
+  {
+    "key": "proceedToCheckout",
+    "value": "button[class*='cart__checkout-button']",
+    "type": "css"
+  },
+  {
+    "key": "itemSizeOnBasket",
+    "value": "div[class='cart__item cart__item--has-extras']",
+    "type": "css"
+  }
+]

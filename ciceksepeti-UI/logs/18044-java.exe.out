@@ -1,0 +1,197 @@
+{"logLevel":"debug","message":"multithreading is set to true"}
+{"logLevel":"debug","message":"multithreading enabled, number of threads=2"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/berka/.m2/repository/org/slf4j/slf4j-simple/1.7.30/slf4j-simple-1.7.30.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Users/berka/.m2/repository/org/slf4j/slf4j-log4j12/1.7.5/slf4j-log4j12-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+{"logLevel":"debug","message":"gauge-java took 868milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 868"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 52499"}
+{"logLevel":"info","message":"Listening on port:52499"}
+[pool-1-thread-1] INFO org.reflections.Reflections - Reflections took 1320 ms to scan 123 urls, producing 5092 keys and 26094 values 
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.checkElementContainsText' and 'org.example.StepImplementation.checkElementContainsText'"}
+{"logLevel":"debug","message":"Found Check if element {} contains text {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.checkElementContainsText' and 'org.example.StepImplementation.checkElementContainsText'"}
+{"logLevel":"debug","message":"Found {} elementi {} değerini içeriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.checkElementContainsText' and 'org.example.StepImplementation.checkElementContainsText'"}
+{"logLevel":"debug","message":"Found Check if title contains text {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.checkElementContainsText' and 'org.example.StepImplementation.checkElementContainsText'"}
+{"logLevel":"debug","message":"Found Title {} değerini içeriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.jsClicker' and 'org.example.StepImplementation.jsClicker'"}
+{"logLevel":"debug","message":"Found Click with js method {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.selectFromAutoSuggestiveDropDown' and 'org.example.StepImplementation.selectFromAutoSuggestiveDropDown'"}
+{"logLevel":"debug","message":"Found Select address from auto suggestive dropdown with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.scrollToElement' and 'org.example.StepImplementation.scrollToElement'"}
+{"logLevel":"debug","message":"Found {} alanına kaydır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.clickElement' and 'org.example.StepImplementation.clickElement'"}
+{"logLevel":"debug","message":"Found Click to element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.clickElement' and 'org.example.StepImplementation.clickElement'"}
+{"logLevel":"debug","message":"Found Elementine tıkla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.hoverAllMenuLinksWithJs' and 'org.example.StepImplementation.hoverAllMenuLinksWithJs'"}
+{"logLevel":"debug","message":"Found Hover all elements in {} with js in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.chooseRandomElementFromList' and 'org.example.StepImplementation.chooseRandomElementFromList'"}
+{"logLevel":"debug","message":"Found {} menu listesinden rasgele seç in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.checkRelativePosition' and 'org.example.StepImplementation.checkRelativePosition'"}
+{"logLevel":"debug","message":"Found Check position {} relative to {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.javascriptClickerWithCss' and 'org.example.StepImplementation.javascriptClickerWithCss'"}
+{"logLevel":"debug","message":"Found Click with javascript to css {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.javascriptClickerWithCss' and 'org.example.StepImplementation.javascriptClickerWithCss'"}
+{"logLevel":"debug","message":"Found Javascript ile css tıkla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.navigateToHomePage' and 'org.example.StepImplementation.navigateToHomePage'"}
+{"logLevel":"debug","message":"Found Navigate to home page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.hoverByGivenElement' and 'org.example.StepImplementation.hoverByGivenElement'"}
+{"logLevel":"debug","message":"Found Hover by given element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.brokenLinkCheck' and 'org.example.StepImplementation.brokenLinkCheck'"}
+{"logLevel":"debug","message":"Found Check broken links with {} element in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.sendKeysToGivenElement' and 'org.example.StepImplementation.sendKeysToGivenElement'"}
+{"logLevel":"debug","message":"Found Send {} Keys to given element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.isEnableSection' and 'org.example.StepImplementation.isEnableSection'"}
+{"logLevel":"debug","message":"Found Element with {} is enable on website in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.isEnableSection' and 'org.example.StepImplementation.isEnableSection'"}
+{"logLevel":"debug","message":"Found {} li element sayfada enable mı kontrol et  in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.s' and 'org.example.StepImplementation.s'"}
+{"logLevel":"debug","message":"Found Select {} list with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.switchTabsUsingPartOfUrl' and 'org.example.StepImplementation.switchTabsUsingPartOfUrl'"}
+{"logLevel":"debug","message":"Found Check if new tab has verified url {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.isDisplayedSection' and 'org.example.StepImplementation.isDisplayedSection'"}
+{"logLevel":"debug","message":"Found Element with {} is displayed on website in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.isDisplayedSection' and 'org.example.StepImplementation.isDisplayedSection'"}
+{"logLevel":"debug","message":"Found {} li element sayfada görüntüleniyor mu kontrol et  in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.waitUntilElementsLoadedAndCheckSortingSuccessful' and 'org.example.StepImplementation.waitUntilElementsLoadedAndCheckSortingSuccessful'"}
+{"logLevel":"debug","message":"Found Wait until elements loaded {} and verify sorting in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.checkElementAttributeExists' and 'org.example.StepImplementation.checkElementAttributeExists'"}
+{"logLevel":"debug","message":"Found Check if element {} has attribute {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.checkElementAttributeExists' and 'org.example.StepImplementation.checkElementAttributeExists'"}
+{"logLevel":"debug","message":"Found {} elementi {} niteliğine sahip mi in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.navigateToGivenPage' and 'org.example.StepImplementation.navigateToGivenPage'"}
+{"logLevel":"debug","message":"Found Navigate to given page {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.waitUntilImageUploadedAndClickCheckBox' and 'org.example.StepImplementation.waitUntilImageUploadedAndClickCheckBox'"}
+{"logLevel":"debug","message":"Found Wait until image uploaded and click checkbox {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.javascriptClickerWithXpath' and 'org.example.StepImplementation.javascriptClickerWithXpath'"}
+{"logLevel":"debug","message":"Found Click with javascript to xpath {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.javascriptClickerWithXpath' and 'org.example.StepImplementation.javascriptClickerWithXpath'"}
+{"logLevel":"debug","message":"Found Javascript ile xpath tıkla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.getElementWithKeyIfExistsWithMessage' and 'org.example.StepImplementation.getElementWithKeyIfExistsWithMessage'"}
+{"logLevel":"debug","message":"Found Check if element {} exists else print message {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.getElementWithKeyIfExistsWithMessage' and 'org.example.StepImplementation.getElementWithKeyIfExistsWithMessage'"}
+{"logLevel":"debug","message":"Found Element {} var mı kontrol et yoksa hata mesajı ver {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.select' and 'org.example.StepImplementation.select'"}
+{"logLevel":"debug","message":"Found Select from {} list with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.isExistOnCartPage' and 'org.example.StepImplementation.isExistOnCartPage'"}
+{"logLevel":"debug","message":"Found {} product is exist on cart page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.warningMessageShouldBe' and 'org.example.StepImplementation.warningMessageShouldBe'"}
+{"logLevel":"debug","message":"Found Given element {} dynamic text area warning message should be in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.waitByMilliSeconds' and 'org.example.StepImplementation.waitByMilliSeconds'"}
+{"logLevel":"debug","message":"Found Wait {} milliseconds in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.waitByMilliSeconds' and 'org.example.StepImplementation.waitByMilliSeconds'"}
+{"logLevel":"debug","message":"Found {} milisaniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.validateProductsSizeEachScrollDown' and 'org.example.StepImplementation.validateProductsSizeEachScrollDown'"}
+{"logLevel":"debug","message":"Found {} has next degeri true ise her sayfada bulunan {} li key ile 60 urun yuklendigini dogrula in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.validateProductsSizeEachScrollDown' and 'org.example.StepImplementation.validateProductsSizeEachScrollDown'"}
+{"logLevel":"debug","message":"Found If {} element's attribute value true then verify 60 products loaded in every page with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.asdf' and 'org.example.StepImplementation.asdf'"}
+{"logLevel":"debug","message":"Found Check if {} element's attribute value {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.textRangeAndWarningMessageShouldBe' and 'org.example.StepImplementation.textRangeAndWarningMessageShouldBe'"}
+{"logLevel":"debug","message":"Found Given element {} dynamic text area range should be max {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.uploadImage' and 'org.example.StepImplementation.uploadImage'"}
+{"logLevel":"debug","message":"Found Upload file to given {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementationHomePage.implementation1' and 'org.example.StepImplementationHomePage.implementation1'"}
+{"logLevel":"debug","message":"Found HomePage Actions in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.scrollToElementWithJs' and 'org.example.StepImplementation.scrollToElementWithJs'"}
+{"logLevel":"debug","message":"Found Scroll to {} field in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.scrollToElementWithJs' and 'org.example.StepImplementation.scrollToElementWithJs'"}
+{"logLevel":"debug","message":"Found {} alanına js ile kaydır in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Using driver.CustomScreenshotGrabber as custom screenshot grabber"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tJavascript ile css tıkla {} : public void javascriptClickerWithCss(String css)"}
+{"logLevel":"debug","message":"\tCheck if element {} has attribute {} : public void checkElementAttributeExists(String key, String attribute)"}
+{"logLevel":"debug","message":"\tGiven element {} dynamic text area range should be max {} : public void textRangeAndWarningMessageShouldBe(String key, String limit)"}
+{"logLevel":"debug","message":"\tCheck if {} element's attribute value {} : public void asdf(String key, String active)"}
+{"logLevel":"debug","message":"\tElement {} var mı kontrol et yoksa hata mesajı ver {} : public void getElementWithKeyIfExistsWithMessage(String key, String message)"}
+{"logLevel":"debug","message":"\tSend Keys to Element : public void sendKeysToGivenElement(String text, String key)"}
+{"logLevel":"debug","message":"\tCheck if new tab has verified url {} : public void switchTabsUsingPartOfUrl(String key)"}
+{"logLevel":"debug","message":"\tCheck if title contains text {} : public void checkElementContainsText(String expectedText)"}
+{"logLevel":"debug","message":"\tGiven element {} dynamic text area warning message should be : public void warningMessageShouldBe(String key)"}
+{"logLevel":"debug","message":"\t{} has next degeri true ise her sayfada bulunan {} li key ile 60 urun yuklendigini dogrula : public void validateProductsSizeEachScrollDown(String key, String elements) throws InterruptedException"}
+{"logLevel":"debug","message":"\tScroll to {} field : public void scrollToElementWithJs(String key)"}
+{"logLevel":"debug","message":"\tWait until elements loaded {} and verify sorting : public void waitUntilElementsLoadedAndCheckSortingSuccessful(String key)"}
+{"logLevel":"debug","message":"\tSeverityLevel.BLOCKER : public void navigateToHomePage()"}
+{"logLevel":"debug","message":"\tClick with js method {} : public void jsClicker(String key)"}
+{"logLevel":"debug","message":"\tIf {} element's attribute value true then verify 60 products loaded in every page with {} : public void validateProductsSizeEachScrollDown(String key, String elements) throws InterruptedException"}
+{"logLevel":"debug","message":"\tNavigate to home page : public void navigateToHomePage()"}
+{"logLevel":"debug","message":"\tClick with javascript to xpath {} : public void javascriptClickerWithXpath(String xpath)"}
+{"logLevel":"debug","message":"\tHover all elements in {} with js : public void hoverAllMenuLinksWithJs(String key)"}
+{"logLevel":"debug","message":"\tClick with javascript to css {} : public void javascriptClickerWithCss(String css)"}
+{"logLevel":"debug","message":"\tUser send keys to to given element : public void sendKeysToGivenElement(String text, String key)"}
+{"logLevel":"debug","message":"\tWait {} milliseconds : public void waitByMilliSeconds(long milliseconds)"}
+{"logLevel":"debug","message":"\tNavigate to Given Page : public void navigateToGivenPage(String string)"}
+{"logLevel":"debug","message":"\t{} milisaniye bekle : public void waitByMilliSeconds(long milliseconds)"}
+{"logLevel":"debug","message":"\tHomePage Actions : public void implementation1()"}
+{"logLevel":"debug","message":"\tNavigate to given page {} : public void navigateToGivenPage(String string)"}
+{"logLevel":"debug","message":"\t{} elementi {} değerini içeriyor mu kontrol et : public void checkElementContainsText(String key, String expectedText)"}
+{"logLevel":"debug","message":"\tWait until image uploaded and click checkbox {} : public void waitUntilImageUploadedAndClickCheckBox(String key)"}
+{"logLevel":"debug","message":"\tUser navigates to given page : public void navigateToGivenPage(String string)"}
+{"logLevel":"debug","message":"\tSelect from {} list with {} : public void select(String key, String text)"}
+{"logLevel":"debug","message":"\tCheck if element {} exists else print message {} : public void getElementWithKeyIfExistsWithMessage(String key, String message)"}
+{"logLevel":"debug","message":"\tUpload file to given {} : public void uploadImage(String key) throws AWTException, InterruptedException"}
+{"logLevel":"debug","message":"\tCheck broken links with {} element : public void brokenLinkCheck(String key)"}
+{"logLevel":"debug","message":"\tSeverityLevel.NORMAL : public void sendKeysToGivenElement(String text, String key)"}
+{"logLevel":"debug","message":"\tHover by given element {} : public void hoverByGivenElement(String key)"}
+{"logLevel":"debug","message":"\t{} li element sayfada görüntüleniyor mu kontrol et  : public void isDisplayedSection(String key)"}
+{"logLevel":"debug","message":"\t{} alanına kaydır : public void scrollToElement(String key)"}
+{"logLevel":"debug","message":"\tTitle {} değerini içeriyor mu kontrol et : public void checkElementContainsText(String expectedText)"}
+{"logLevel":"debug","message":"\tElement with {} is enable on website : public void isEnableSection(String key)"}
+{"logLevel":"debug","message":"\tSend {} Keys to given element {} : public void sendKeysToGivenElement(String text, String key)"}
+{"logLevel":"debug","message":"\t{} elementi {} niteliğine sahip mi : public void checkElementAttributeExists(String key, String attribute)"}
+{"logLevel":"debug","message":"\tJavascript ile xpath tıkla {} : public void javascriptClickerWithXpath(String xpath)"}
+{"logLevel":"debug","message":"\t{} alanına js ile kaydır : public void scrollToElementWithJs(String key)"}
+{"logLevel":"debug","message":"\t{} product is exist on cart page : public void isExistOnCartPage(String key)"}
+{"logLevel":"debug","message":"\tSelect {} list with {} : public void s(String key, String option)"}
+{"logLevel":"debug","message":"\tCheck if element {} contains text {} : public void checkElementContainsText(String key, String expectedText)"}
+{"logLevel":"debug","message":"\t{} menu listesinden rasgele seç : public void chooseRandomElementFromList(String key)"}
+{"logLevel":"debug","message":"\tClick to element {} : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\t{} li element sayfada enable mı kontrol et  : public void isEnableSection(String key)"}
+{"logLevel":"debug","message":"\tCheck position {} relative to {} : public Boolean checkRelativePosition(String key1, String key2)"}
+{"logLevel":"debug","message":"\tUser navigates the home page : public void navigateToHomePage()"}
+{"logLevel":"debug","message":"\tElement with {} is displayed on website : public void isDisplayedSection(String key)"}
+{"logLevel":"debug","message":"\tSelect address from auto suggestive dropdown with {} : public void selectFromAutoSuggestiveDropDown(String key)"}
+{"logLevel":"debug","message":"\tElementine tıkla {} : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\tNavigate to homepage : public void navigateToHomePage()"}
+[pool-3-thread-1] INFO org.reflections.Reflections - Reflections took 1095 ms to scan 123 urls, producing 5018 keys and 20140 values 
+[pool-2-thread-1] INFO org.reflections.Reflections - Reflections took 1097 ms to scan 123 urls, producing 5018 keys and 20140 values 
+[pool-2-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 97.0.4692.71 (resolved driver for Chrome 97)
+[pool-2-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\berka\.cache\selenium\chromedriver\win32\97.0.4692.71\chromedriver.exe
+[pool-3-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 97.0.4692.71 (resolved driver for Chrome 97)
+[pool-3-thread-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\berka\.cache\selenium\chromedriver\win32\97.0.4692.71\chromedriver.exe
+SSttaarrttiinngg  CChhrroommeeDDrriivveerr  9977..00..44669922..7711  ((aaddeeffaa77883377dd0022aa0077aa660044cc11ee66eeffff00bb3a09422ab88d-ref3s/braan0c9h4-2h2eaabd8s8/d4-6r9e2f@s{/#b1r2a4n7c}h)- hoena dpso/r4t692@{#1 2479}2)7 8on
+Only lo caplo rcto n2nect75i0on
+Only local sc oanren ealcltowiedo.n
+Please ssee  htatprs:e// charolmledoriwveer.dc.hro
+Pleasem isueme. ohrtgtp/s:s/e/ccurihtryo-mceodnrsiivdeerra.tcihroomniusm. orfg/osercurity -csoungsgiedsteironatsi oonns  fokre esuggestpioinnsg  onC hkreoemeDripving ChromeDriver safe.
+er safe.
+CChrohmreoDmreiDvreirv ewra sw asst asrttaerdt esdu cscuecscsefsuslfluyl.ly
+.
+[1642532868.061][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1642532868.061][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1642532868.061][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1642532868.061][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+Oca 18, 2022 10:07:48 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oca 18, 2022 10:07:48 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Navigate to given page {}' using 'class org.example.StepImplementation.navigateToGivenPage"}
+{"logLevel":"debug","message":"Executing 'Navigate to given page {}' using 'class org.example.StepImplementation.navigateToGivenPage"}
+[pool-2-thread-1] INFO org.example.StepImplementation - Navigated to given url :https://www.mizu.com/en-mx/
+[pool-3-thread-1] INFO org.example.StepImplementation - Navigated to given url :https://www.mizu.com/en-mx/
+{"logLevel":"debug","message":"Executing 'Wait {} milliseconds' using 'class org.example.StepImplementation.waitByMilliSeconds"}
+[pool-2-thread-1] INFO org.example.StepImplementation - 1000 milisaniye bekleniyor.
+{"logLevel":"debug","message":"Executing 'Wait {} milliseconds' using 'class org.example.StepImplementation.waitByMilliSeconds"}
+[pool-3-thread-1] INFO org.example.StepImplementation - 1000 milisaniye bekleniyor.
+{"logLevel":"debug","message":"Executing 'Click to element {}' using 'class org.example.StepImplementation.clickElement"}
+{"logLevel":"debug","message":"Executing 'Click to element {}' using 'class org.example.StepImplementation.clickElement"}
+{"logLevel":"fatal","message":"Error in thread 18\nnull\njava.lang.NullPointerException\r\n\tat gauge.messages.Spec$ProtoExecutionResult$Builder.setFailureScreenshotFile(Spec.java:28825)\r\n\tat com.thoughtworks.gauge.execution.MethodExecutor.createFailureExecResult(MethodExecutor.java:46)\r\n\tat com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)\r\n\tat com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:66)\r\n\tat com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:59)\r\n\tat com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:41)\r\n\tat com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:14)\r\n\tat com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:33)\r\n\tat com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:19)\r\n\tat com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:44)\r\n\tat com.thoughtworks.gauge.RunnerServiceHandler.lambda$executeStep$7(RunnerServiceHandler.java:166)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\r\n\tat java.base/java.lang.Thread.run(Thread.java:829)\r\n"}

@@ -1,0 +1,56 @@
+Created by berka on 9.01.2022
+
+This is a concept file with following syntax for each concept.
+# CONCEPT Navigate to home and close pop ups
+ Navigate to home page
+* Navigate to given page "https://www.mizu.com/en-mx/"
+* Wait "1000" milliseconds
+* Click to element "closePopup"
+
+# CONCEPT Login successfully given params <username> <password>
+* Hover by given element "userMenuIcon"
+* Click to element "signInButton"
+* Send <username> Keys to given element "userLoginId"
+* Send <password> Keys to given element "userLoginPw"
+* Click to element "loginButton"
+* Check if element "logoutButton" has attribute "href"
+* Wait "1000" milliseconds
+
+# CONCEPT Personalize given product and add to cart
+* Navigate to given page "https://www.mizu.com/en-mx/portarretratos-de-cristal-personalizado-cancion-kcm64138299"
+* Click to element "addToCartButton"
+* Send "Selenium-EkTest : Test1234 Test1234 Test1234" Keys to given element "dynamicText"
+* Given element "dynamicText" dynamic text area range should be max "40"
+* Given element "textAreaMessage" dynamic text area warning message should be
+* Upload file to given "fileUploaderInputTag"
+* Wait until image uploaded and click checkbox "confirmDesignCheckBox"
+* Click to element "nextButton"
+* "itemSizeOnBasket" product is exist on cart page
+* Click to element "proceedToCheckout"
+
+# CONCEPT Fill the required fields in shipping details page
+* Send "Berkay PB" Keys to given element "formRecipientName"
+* Click with js method "drpDownClick"
+* Select "drpPhoneNumberSelectableItems" list with "+90 Turkey"
+* Send "5554535255" Keys to given element "lblPhoneNumber"
+* Send "mexico" Keys to given element "drpDownDynamicAddress"
+* Select address from auto suggestive dropdown with "drpDownAutoSuggestiveAddressContent"
+
+# CONCEPT Verify products size in each page when user scroll down
+* Navigate to given page "https://www.mizu.com/en-mx/flowers"
+* Wait "1000" milliseconds
+* If "hasNextPage" element's attribute value true then verify 60 products loaded in every page with "productsInPage"
+
+# CONCEPT Verify that the order is correct when prices are ordered from high to low
+* Navigate to given page "https://www.mizu.com/en-mx/flowers"
+* Wait "1000" milliseconds
+* Click to element "sortButton"
+* Wait "1000" milliseconds
+* Click to element "priceHighToLowRadioButton"
+* Wait until elements loaded "productPricesIntegerValue" and verify sorting
+
+# CONCEPT Check broken links on top menu bar
+* Navigate to given page "https://www.mizu.com"
+* Wait "1000" milliseconds
+* Hover all elements in "linksOnNavBar" with js
+* Check broken links with "linksOnNavBar" element

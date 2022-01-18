@@ -1,0 +1,3 @@
+{"logLevel":"debug","message":"multithreading is set to true"}
+{"logLevel":"debug","message":"multithreading enabled, but could not read GAUGE_PARALLEL_STREAMS_COUNT as int. Got GAUGE_PARALLEL_STREAMS_COUNT=null"}
+{"logLevel":"debug","message":"using numberOfStreams=1, err: null"}

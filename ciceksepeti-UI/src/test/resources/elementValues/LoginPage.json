@@ -1,0 +1,22 @@
+[
+  {
+    "key": "userLoginId",
+    "value": "EmailLogin",
+    "type": "id"
+  },
+  {
+    "key": "userLoginPw",
+    "value": "Password",
+    "type": "id"
+  },
+  {
+    "key": "loginButton",
+    "value": "button[class*='js-login-button']",
+    "type": "css"
+  },
+  {
+    "key": "logoutButton",
+    "value": "(//li/a[@class='user-menu__log-out'])[1]",
+    "type": "xpath"
+  }
+]
