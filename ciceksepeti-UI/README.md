@@ -32,3 +32,6 @@ _We recommend considering modelling your tests using the [Page Object](https://g
 ```
 mvn gauge:execute -DspecsDir="specs" -DinParallel=true
 ```
+You can find the html results of test executions on \CS CaseStudy\ciceksepeti-UI\reports\html-report\specs\specs
+
+![](sc1.png)
